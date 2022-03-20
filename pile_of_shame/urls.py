@@ -17,7 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.views.generic import TemplateView
 
+from viewer.models import Genre, Game
 from viewer.views import GenreListView
+
+admin.site.register(Genre)
+admin.site.register(Game)
 
 urlpatterns = [
     path('admin/', admin.site.urls),

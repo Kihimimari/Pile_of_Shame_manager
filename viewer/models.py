@@ -4,6 +4,9 @@ from django.db.models import Model, CharField, ForeignKey, DO_NOTHING, DateTimeF
 class Genre(Model):
     name = CharField(max_length=256)
 
+    def __str__(self):
+        return f"{self.name}"
+
 
 class Game(Model):
     name = CharField(max_length=256)
@@ -14,3 +17,6 @@ class Game(Model):
     first_release_date = DateTimeField()
     summary = TextField()
     cover = TextField()
+
+    def __str__(self):
+        return f"{self.name}"
