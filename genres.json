@@ -1,0 +1,163 @@
+[
+  {
+    "model": "viewer.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Point-and-click"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 4,
+    "fields": {
+      "name": "Fighting"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 5,
+    "fields": {
+      "name": "Shooter"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Music"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Platform"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Puzzle"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 10,
+    "fields": {
+      "name": "Racing"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 11,
+    "fields": {
+      "name": "Real Time Strategy (RTS)"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 12,
+    "fields": {
+      "name": "Role-playing (RPG)"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 13,
+    "fields": {
+      "name": "Simulator"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 14,
+    "fields": {
+      "name": "Sport"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 15,
+    "fields": {
+      "name": "Strategy"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 16,
+    "fields": {
+      "name": "Turn-based strategy (TBS)"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 24,
+    "fields": {
+      "name": "Tactical"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 25,
+    "fields": {
+      "name": "Hack and slash/Beat'em up"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 26,
+    "fields": {
+      "name": "Quiz/Trivia"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 30,
+    "fields": {
+      "name": "Pinball"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 31,
+    "fields": {
+      "name": "Adventure"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 32,
+    "fields": {
+      "name": "Indie"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 33,
+    "fields": {
+      "name": "Arcade"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 34,
+    "fields": {
+      "name": "Visual Novel"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 35,
+    "fields": {
+      "name": "Card&Board Game"
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 36,
+    "fields": {
+      "name": "MOBA"
+    }
+  }
+]
