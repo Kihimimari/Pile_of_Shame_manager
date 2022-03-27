@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.views.generic import TemplateView
 
 from viewer.models import Genre, Game
@@ -25,12 +25,13 @@ admin.site.register(Game)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('genre/', GenreListView.as_view(), name="genre"),
-    path('game/', GameListView.as_view(), name="game"),
-    path('game/new', GameCreateView.as_view(), name="create_game"),
-    path('game/<int:pk>', GameDetailView.as_view(), name='game_details'),
-    path('game/<int:pk>/update', GameUpdateView.as_view(), name='update_game'),
-    path('game/<int:pk>/delete', GameDeleteView.as_view(), name='delete_game'),
+    path('games/', include('viewer.urls')),
+    # path('genre/', GenreListView.as_view(), name="genre"),
+    # path('game/', GameListView.as_view(), name="game"),
+    # path('game/new', GameCreateView.as_view(), name="create_game"),
+    # path('game/<int:pk>', GameDetailView.as_view(), name='game_details'),
+    # path('game/<int:pk>/update', GameUpdateView.as_view(), name='update_game'),
+    # path('game/<int:pk>/delete', GameDeleteView.as_view(), name='delete_game'),
     path('', TemplateView.as_view(template_name="index.html"), name='index'),
 
 ]

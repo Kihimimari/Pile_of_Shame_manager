@@ -31,14 +31,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+{#                <li class="nav-item">#}
+{#                    <a class="nav-link" href="{% url 'viewer:genre' %}">Genre list</a>#}
+{#                </li>#}
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'genre' %}">Genre list</a>
+                    <a class="nav-link" href="{% url 'viewer:game' %}">List of games</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'game' %}">List of games</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{% url 'create_game' %}">Add new game</a>
+                    <a class="nav-link" href="{% url 'viewer:create_game' %}">Add new game</a>
                 </li>
             </ul>
         </div>

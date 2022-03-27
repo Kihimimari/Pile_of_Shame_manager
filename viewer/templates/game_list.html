@@ -19,7 +19,7 @@
         {% for game in object_list %}
             <tr>
                 <th scope="row">{{ game.id }}</th>
-                <td role="button" onclick="location.href='{% url "game_details" game.id %}'">{{ game.name }}</td>
+                <td role="button" onclick="location.href='{% url "viewer:game_details" game.id %}'">{{ game.name }}</td>
                 <td>{{ game.platform }}</td>
                 <td>{{ game.genre }}</td>
                 <td>{{ game.developer }}</td>

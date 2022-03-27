@@ -22,17 +22,17 @@ class GameDetailView(DetailView):
 class GameCreateView(CreateView):
     template_name = "forms/form.html"
     form_class = GameForm
-    success_url = reverse_lazy("game")
+    success_url = reverse_lazy("viewer:game")
 
 
 class GameUpdateView(UpdateView):
     template_name = "forms/form.html"
     form_class = GameForm
     model = Game
-    success_url = reverse_lazy("game")
+    success_url = reverse_lazy("viewer:game")
 
 
 class GameDeleteView(DeleteView):
     template_name = "forms/delete_game_view.html"
     model = Game
-    success_url = reverse_lazy("game")
+    success_url = reverse_lazy("viewer:game")

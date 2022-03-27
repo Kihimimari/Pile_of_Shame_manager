@@ -8,5 +8,5 @@
         </p>
     <input type="submit" value="Yes" class="btn btn-success">
     </form>
-    <input type="button" value="No" class="btn btn-danger" onclick="location.href='{% url "game_details" game.id %}'">
+    <input type="button" value="No" class="btn btn-danger" onclick="location.href='{% url "viewer:game_details" game.id %}'">
 {% endblock %}
