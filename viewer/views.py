@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from django.views.generic import ListView, DetailView
+from django.urls import reverse_lazy
+from django.views.generic import ListView, DetailView, CreateView
 from viewer.models import Genre, Game
+from viewer.forms import GameForm
 
 
 class GenreListView(ListView):
@@ -16,3 +18,9 @@ class GameListView(ListView):
 class GameDetailView(DetailView):
     template_name = "game_detail_view.html"
     model = Game
+
+
+class GameCreateView(CreateView):
+    template_name = "forms/form.html"
+    form_class = GameForm
+    success_url = reverse_lazy("game")
