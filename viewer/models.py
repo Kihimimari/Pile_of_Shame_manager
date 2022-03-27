@@ -1,4 +1,4 @@
-from django.db.models import Model, CharField, ForeignKey, DO_NOTHING, TextField, DateTimeField
+from django.db.models import Model, CharField, ForeignKey, DO_NOTHING, TextField, DateField
 
 
 class Genre(Model):
@@ -14,7 +14,7 @@ class Game(Model):
     genre = ForeignKey(Genre, on_delete=DO_NOTHING)
     developer = CharField(max_length=265)
     publisher = CharField(max_length=256)
-    first_release_date = DateTimeField()
+    first_release_date = DateField(null=True, blank=True)
     summary = TextField(null=True, blank=True)
     cover = TextField(null=True, blank=True)
 
