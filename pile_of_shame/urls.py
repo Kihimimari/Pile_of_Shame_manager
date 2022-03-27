@@ -18,14 +18,16 @@ from django.urls import path
 from django.views.generic import TemplateView
 
 from viewer.models import Genre, Game
-from viewer.views import GenreListView
+from viewer.views import GenreListView, GameListView, GameDetailView
 
 admin.site.register(Genre)
 admin.site.register(Game)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('genres/', GenreListView.as_view(), name="genres"),
-    path('', TemplateView.as_view(template_name="home.html"), name='index'),
+    path('genre/', GenreListView.as_view(), name="genre"),
+    path('game/', GameListView.as_view(), name="game"),
+    path('game/<int:pk>', GameDetailView.as_view(), name='game_details'),
+    path('', TemplateView.as_view(template_name="index.html"), name='index'),
 
 ]
