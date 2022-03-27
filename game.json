@@ -1,0 +1,226 @@
+[
+  {
+    "model": "viewer.game",
+    "pk": 1,
+    "fields": {
+      "name": "ELEX II",
+      "platform": "PlayStation 4",
+      "genre": 12,
+      "developer": "Piranha Bytes",
+      "publisher": "THQ Nordic",
+      "first_release_date": "2022-03-01",
+      "summary": "Several years after Jax defeated the Hybrid, a new threat arrives from the sky, unleashing the dangerous powers of dark Elex and endangering all life on the planet. In order to defend the peace on Magalan and the safety of his own family, Jax has to go on a mission to convince the factions to unite against the invaders.\\n\\nDive into a huge, hand-crafted, completely unique world with multiple factions and diverse environments set in a post-apocalyptic science fantasy universe. Explore the vast world of Magalan with your jetpack, and play through the epic story the way you want.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co39yr.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 2,
+    "fields": {
+      "name": "Martha Is Dead",
+      "platform": "PlayStation 4",
+      "genre": 31,
+      "developer": "LKA",
+      "publisher": "Wired Productions",
+      "first_release_date": "2022-02-24",
+      "summary": "Martha Is Dead is a dark first-person psychological thriller, set in 1944 Italy, that blurs the lines between reality, superstition and the tragedy of war.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co2or1.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 3,
+    "fields": {
+      "name": "Sifu",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 4,
+      "developer": "Sloclap",
+      "publisher": "Sloclap",
+      "first_release_date": "2022-02-08",
+      "summary": "A third person action game featuring intense hand-to-hand combat, it puts you in control of a young Kung-Fu student on his path of revenge throughout the city.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co4h5s.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 4,
+    "fields": {
+      "name": "Life is Strange Remastered Collection",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 31,
+      "developer": "Dontnod Entertainment",
+      "publisher": "Square Enix",
+      "first_release_date": "2022-02-01",
+      "summary": "Return to Arcadia Bay and experience two award-winning Life is Strange games like never before! Remastered visuals and animation breathe new life into the great cast of characters and gripping stories.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co2vfr.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 5,
+    "fields": {
+      "name": "OlliOlli World",
+      "platform": "Nintendo Switch",
+      "genre": 32,
+      "developer": "Roll7",
+      "publisher": "Private Division",
+      "first_release_date": "2022-02-07",
+      "summary": "OlliOlli World is a bold new skateboarding action-platformed that’s bursting with personality. Flip and flow through the vivid and vibrant world of Radlandia, meeting colorful characters as you grind, trick, and air your way to discover the mystical skate gods on your quest for Gnarvana",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co2xvs.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 6,
+    "fields": {
+      "name": "Dying Light 2: Stay Human",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 31,
+      "developer": "Techland",
+      "publisher": "Techland",
+      "first_release_date": "2022-02-04",
+      "summary": "The last great human settlement exists within an unforgiving, infected world. Exceptional agility and combat skills make you a powerful ally and a valuable commodity. With your unique abilities you have the power to be an agent of change within this decaying metropolis. Use it wisely.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co31k4.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 7,
+    "fields": {
+      "name": "Babylon's Fall",
+      "platform": "PlayStation 4",
+      "genre": 12,
+      "developer": "PlatinumGames Inc.",
+      "publisher": "Square Enix",
+      "first_release_date": "2022-03-03",
+      "summary": "Join a group of warriors bonded with special equipment called Gideon Coffins in an odyssey to overcome the titanic Tower of Babylon. Wield unique weapons in both hands, and use the power of the Gideon Coffin, allowing for combinations of up to four weapons at once. The capabilities of different equipment will also bring endless strategic variation to combat. Game visuals are achieved using a newly developed “brushwork style” to create a unique fantasy setting with a medieval oil painting aesthetic. Play in co-op online multiplayer for up to 4 players. The game will feature a range of game modes post launch at no additional cost.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co4fo0.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 8,
+    "fields": {
+      "name": "ANNO: Mutationem",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 25,
+      "developer": "ThinkingStars",
+      "publisher": "Lightning Games",
+      "first_release_date": "2022-03-17",
+      "summary": "ANNO: Mutationem set up a near future Metropolis after the catastrophy. Moreover, they’ve introduced the famous open-sourced work series “SCP Foundation” in to the world of ANNO: Mutationem, to mix the creative ideas of authors from all over the world.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co2g10.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 9,
+    "fields": {
+      "name": "Horizon Forbidden West",
+      "platform": "PlayStation 5",
+      "genre": 31,
+      "developer": "Guerrilla Games",
+      "publisher": "Sony Interactive Entertainment",
+      "first_release_date": "2022-02-18",
+      "summary": "Horizon Forbidden West continues Aloy’s story as she moves west to a far-future America to brave a majestic, but dangerous frontier where she’ll face awe-inspiring machines and mysterious new threats.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co3ofu.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 10,
+    "fields": {
+      "name": "The King of Fighters XV",
+      "platform": "Xbox Series X|S",
+      "genre": 4,
+      "developer": "SNK CORPORATION",
+      "publisher": "SNK CORPORATION",
+      "first_release_date": "2022-02-17",
+      "summary": "The King of Fighters XV, is the fifteenth installment of The King of Fighters series. Transcend beyond your limits with KOF XV! Classic popular characters, heroes and villains revived from the dead, new challengers, and more!",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co3ofu.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 11,
+    "fields": {
+      "name": "Elden Ring",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 12,
+      "developer": "FromSoftware Inc.",
+      "publisher": "BANDAI NAMCO Entertainment",
+      "first_release_date": "2022-02-25",
+      "summary": "Elden Ring is a fantasy, action and open world game with RPG elements such as stats, weapons and spells. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co4jni.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 12,
+    "fields": {
+      "name": "Tom Clancy's Rainbow Six Extraction",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 5,
+      "developer": "Ubisoft",
+      "publisher": "Ubisoft",
+      "first_release_date": "2022-01-20",
+      "summary": "Assemble your elite team of Rainbow Six Operators to launch incursions in the unpredictable containment zones and face off against an evolving Alien threat. Band together and put everything on the line as you take on this unknown enemy.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co1lx7.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 13,
+    "fields": {
+      "name": "Destiny 2: The Witch Queen",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 5,
+      "developer": "Bungie",
+      "publisher": "Bungie",
+      "first_release_date": "2022-02-22",
+      "summary": "Delve into Savathûn’s Throne World to uncover the mystery of how she and her Lucent Hive stole the Light. Learn the secrets to crafting new weapons, the new Glaive, and survive the truth within her web of lies.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co3nu1.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 14,
+    "fields": {
+      "name": "Shadow Warrior 3",
+      "platform": "PC (Microsoft Windows)",
+      "genre": 5,
+      "developer": "Flying Wild Hog",
+      "publisher": "Devolver Digital",
+      "first_release_date": "2022-03-01",
+      "summary": "Shadow Warrior 3 launches the offbeat first-person shooter series to the next level with a seamless blend of fast-paced gunplay, razor-sharp melee combat, and a spectacular free-running movement system.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co45x3.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 15,
+    "fields": {
+      "name": "Stranger of Paradise: Final Fantasy Origin",
+      "platform": "PlayStation 4",
+      "genre": 12,
+      "developer": "Team Ninja",
+      "publisher": "Square Enix",
+      "first_release_date": "2022-03-15",
+      "summary": "Jack and his allies, Ash and Jed, burn with resolve to defeat Chaos as they throw open the gates to the Chaos Shrine. Yet doubts remain—are they truly the Warriors of Light the prophecy foretold?\\nStep into a world of dark fantasy and revel in the exhilarating, action-packed battles!",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co4kag.jpg"
+    }
+  },
+  {
+    "model": "viewer.game",
+    "pk": 16,
+    "fields": {
+      "name": "GhostWire: Tokyo",
+      "platform": "PlayStation 5",
+      "genre": 31,
+      "developer": "Tango Gameworks",
+      "publisher": "Bethesda Softworks",
+      "first_release_date": "2022-03-25",
+      "summary": "After strange disappearances hit Tokyo’s population, it’s up to you to uncover the source and purge the city of a strange, new evil. Armed with your own mysterious spectral abilities, you will face down the occult, unravel conspiracy theories and experience urban legends like never before.",
+      "cover": "https://images.igdb.com/igdb/image/upload/t_thumb/co2a31.jpg"
+    }
+  }
+]
