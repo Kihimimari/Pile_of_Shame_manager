@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form method="post" class="py-4 d-inline">
+        {% csrf_token %}
+        <p>
+            Do you want to delete {{ game.name }} from database?
+        </p>
+    <input type="submit" value="Yes" class="btn btn-success">
+    </form>
+    <input type="button" value="No" class="btn btn-danger" onclick="location.href='{% url "game_details" game.id %}'">
+{% endblock %}
